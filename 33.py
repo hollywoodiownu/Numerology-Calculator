@@ -6,7 +6,7 @@ from datetime import datetime
 class NumerologyCalculator:
     def __init__(self, root):
         self.root = root
-        self.root.title("Numerology Calculator")
+        self.root.title("Numerology Calculator Before EXE")
         self.root.geometry("320x410")  # Adjusted for the additional row of buttons
         self.root.resizable(width=False, height=False)
 
